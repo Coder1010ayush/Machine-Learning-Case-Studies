@@ -1,0 +1,19 @@
+Accuracy of RandomForestClassifier is 0.77520113582584
+Accuracy of GradientBoostingClassifier  is 0.7832465688594415
+Accuracy of GaussianProcessClassifier  is 0.7846663511594889
+Accuracy of AdaBoostClassifier  is 0.7846663511594889
+Accuracy of SVC  is 0.7846663511594889
+Accuracy of GaussianNB  is 0.7458589682915286
+Accuracy of MultinomialNB  is 0.6639848556554662
+Accuracy of NuSVC  is 0.7444391859914813
+
+
+Accuracy of GradientBoostingClassifier  is 0.7827733080927591
+              precision    recall  f1-score   support
+
+           0       0.90      0.82      0.86      1689
+           1       0.47      0.65      0.54       424
+
+    accuracy                           0.78      2113
+   macro avg       0.69      0.73      0.70      2113
+weighted avg       0.82      0.78      0.79      2113

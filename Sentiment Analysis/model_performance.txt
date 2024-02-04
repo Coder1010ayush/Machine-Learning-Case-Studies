@@ -1,0 +1,51 @@
+Accuracy of RandomForestClassifier is 0.7872336073955905
+Classification report of RandomForestClassifier  is
+               precision    recall  f1-score   support
+
+           0       0.91      0.43      0.58     10696
+           1       0.81      0.85      0.83     16464
+           2       0.75      0.91      0.82     21734
+
+    accuracy                           0.79     48894
+   macro avg       0.82      0.73      0.74     48894
+weighted avg       0.80      0.79      0.77     48894
+
+--------------------------------------------------------------------------
+
+
+Accuracy of KNeighborsClassifier is 0.403239661308136
+[[  853  9568    75]
+ [  105 16207   257]
+ [  143 19030  2656]]
+ Classification report of KNeighborsClassifier  is
+               precision    recall  f1-score   support
+
+           0       0.77      0.08      0.15     10496
+           1       0.36      0.98      0.53     16569
+           2       0.89      0.12      0.21     21829
+
+    accuracy                           0.40     48894
+   macro avg       0.68      0.39      0.30     48894
+weighted avg       0.69      0.40      0.31     48894
+
+
+---------------------------------------------------------------------------
+
+
+Accuracy of GradientBoostingClassifier is 0.7412361434940893
+confusion matrix of GrandientBoostingClassifier is
+ [[ 4468  2818  3210]
+ [  145 13831  2593]
+ [  649  3237 17943]]
+Classification report of GradientBoostingClassifier is
+               precision    recall  f1-score   support
+
+           0       0.85      0.43      0.57     10496
+           1       0.70      0.83      0.76     16569
+           2       0.76      0.82      0.79     21829
+
+    accuracy                           0.74     48894
+   macro avg       0.77      0.69      0.70     48894
+weighted avg       0.76      0.74      0.73     48894
+
+
